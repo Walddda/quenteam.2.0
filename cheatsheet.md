@@ -38,6 +38,8 @@ underlined header 2
 
 ~~line through~~
 
+`colored`
+
 ---
 ## Links:
 [link](www.google.com)
@@ -46,6 +48,37 @@ underlined header 2
 
 [link defined later][link1]
 
-
-
 [link1]: www.google.com
+
+---
+## Code
+    This is a code block.
+``` 
+This is also a block of code with no language.
+```
+
+``` javascript
+//This is also a block of code with javascript syntax.
+var s = "String";
+let i = 0;
+i++;
+console.log(s);
+```
+___
+## Tables
+|Tables|in|markdown|
+|----|:----:|----:|
+|left aligned|center|right|
+|row 1|row 1|*row 1*|
+|row 2|_row 2_|**row 2**|
+---
+## Quotes
+> This is a quote.
+***
+## HTML
+<div>
+<h2>You can use HTML with Markdown</h2>
+<p>but you can't use *Markdown* inside of html.<br>
+    you <em>have to</em> use <b>HTML Tags</b>
+</p>
+</div>
